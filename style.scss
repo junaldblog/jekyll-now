@@ -19,7 +19,8 @@ html {
 
 body {
 	background: #fff;
-  font: 18px/1.4 $cairo;
+  font-size: 18px/1.4;
+  font-family: 'Cairo', sans-serif;
   color: $darkGray;
 }
 
