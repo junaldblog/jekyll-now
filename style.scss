@@ -19,7 +19,7 @@ html {
 
 body {
 	background: #fff;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $cairo;
   color: $darkGray;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: 'Cairo', sans-serif;
   color: $darkerGray;
   font-weight: bold;
 
@@ -195,7 +195,7 @@ img {
 .site-name {
   margin: 0;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: 'Cairo', sans-serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -204,8 +204,6 @@ img {
   background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
 }
 
 .site-description {
@@ -221,7 +219,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: 'Cairo', sans-serif;
   font-size: 18px;
 
   @include mobile {
