@@ -20,7 +20,7 @@ html {
 body {
 	background: #fff;
   font-size: 18px/1.4;
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: $darkGray;
 }
 
@@ -195,7 +195,7 @@ img {
 .site-name {
   margin: 0;
   cursor: pointer;
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Carter One', cursive;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -219,7 +219,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
 
   @include mobile {
@@ -281,16 +281,12 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
 }
 
 footer {
-  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  padding: 230px 0 0 0;
   text-align: center;
-  height: 100%;
-  min-height: 100px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
