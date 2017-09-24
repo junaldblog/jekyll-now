@@ -276,7 +276,7 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
-    background: linear-gradient(to right, #E67207 0%, #EF4E7B 50%, #A166AB 100%);
+    border: 1px solid linear-gradient(to right, #E67207 0%, #EF4E7B 50%, #A166AB 100%);
     border-radius: 4px;
   }
 }
