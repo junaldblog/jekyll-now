@@ -228,7 +228,7 @@ nav {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   a {
@@ -237,6 +237,7 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    font-size: 14px;
 
     @include mobile {
       margin: 0 10px;
