@@ -20,7 +20,7 @@ html {
 body {
   background: #fefefe;
   font-size: 18px;
-  font-family: font124330;
+  font-family: 'Open Sans', sans-serif;
   color: #5a5a5a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -226,7 +226,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: font124330;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 
   @include mobile {
