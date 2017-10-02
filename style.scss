@@ -19,7 +19,7 @@ html {
 
 body {
 	background: #fff;
-  font-size: 18px/1.4;
+  font-size: 18px;
   font-family: font124330;
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
@@ -32,8 +32,12 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-  line-height: 25px;
-  font-size: 16px;
+  color: #0a0a0a;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -255,13 +259,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-  color: #0a0a0a;
-  font-size: 18px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-   line-height: 1.6;
-   text-rendering: optimizeLegibility; 
+  border-bottom: 1px solid $lightGray; 
 }
 
 .posts > .post:last-child {
