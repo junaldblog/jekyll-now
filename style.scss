@@ -21,7 +21,10 @@ body {
 	background: #fff;
   font-size: 18px/1.4;
   font-family: font124330;
-  color: $darkGray;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   text-rendering: optimizeLegibility;
 }
 
 .container {
@@ -253,13 +256,17 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+  color: #0a0a0a;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   line-height: 1.6;
+   text-rendering: optimizeLegibility; 
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
-  line-height: 25px;
-  font-size: 16px;
 }
 
 .post {
@@ -267,13 +274,9 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: #0a0a0a;
+    color: #333333;
     font-size: 22px;
-    font-style: italic;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    line-height: 1.6;
-    text-rendering: optimizeLegibility;  
+    font-style: italic; 
   }
 
   .comments {
