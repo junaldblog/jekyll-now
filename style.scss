@@ -19,15 +19,14 @@ html {
 
 body {
   background: #fefefe;
-  font-size: 18px;
-  font-family: 'Noto Sans', sans-serif;
-  color: #333333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
    text-rendering: optimizeLegibility;
 }
 
 .container {
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
   margin: 0 auto;
   max-width: 800px;
   padding: 0 10px;
@@ -36,7 +35,7 @@ body {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.8;
+  line-height: 1.6;
   text-rendering: optimizeLegibility;
 	
   @include mobile {
