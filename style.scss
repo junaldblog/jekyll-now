@@ -26,7 +26,7 @@ body {
 
 .container {
   font-size: 18px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: font124330;
   margin: 0 auto;
   max-width: 800px;
   padding: 0 10px;
@@ -101,6 +101,7 @@ ul, ol {
   padding-left: 30px;
   font-family: 'Signika Negative', sans-serif;
   font-size: 20px;
+  letter-spacing: 1px;
 }
 
 ul {
@@ -239,7 +240,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: 'Noto Sans', sans-serif;
+  font-family: font124330;
   font-size: 14px;
   text-transform: uppercase;
 
