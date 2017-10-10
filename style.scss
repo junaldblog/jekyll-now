@@ -32,10 +32,9 @@ body {
   padding: 0 10px;
   width: 100%;
   color: #333333;
-  font-weight: normal;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  line-height: 1.6;
+  line-height: 1.7;
   text-rendering: optimizeLegibility;
 	
   @include mobile {
